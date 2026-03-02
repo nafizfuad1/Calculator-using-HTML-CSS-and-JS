@@ -35,6 +35,9 @@
   border: none;
   cursor: pointer;
 }
+.row button:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 .input-result input {
   height: 33px;
   font-size: 24px;
@@ -47,6 +50,7 @@
   font-weight: bold;
   font-size: 32px;
   height: 38px;
+  /* margin: 15px 0 30px 0; */
 }
 .bg-reddish {
   background: #fdd7c1;
